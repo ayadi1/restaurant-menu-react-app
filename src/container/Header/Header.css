@@ -1,0 +1,97 @@
+.app__header {
+  color: var(--color-white);
+  margin-top: 100px;
+}
+.app__header-content {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4rem;
+}
+.app__header-content__small-text {
+  flex: 1;
+  font-family: var(--font-alt);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+}
+.app__header-content__small-text p {
+  transform: rotate(-90deg);
+  /* text-align: center; */
+  margin-top: 50px;
+}
+.app__header-content__headlines {
+  flex: 4;
+}
+.app__header-content__headlines h3 {
+  font-family: var(--font-base);
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+}
+.app__header-content__headlines img {
+  width: 40px;
+  height: 9px;
+}
+.app__header-content__headlines h2 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 130%;
+
+  /* or 117px */
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--color-golden);
+}
+.app__header-content__headlines p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-gray);
+}
+.app__header-content__headlines button {
+  width: 157px;
+  height: 44px;
+  background-color: var(--color-golden);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+
+  /* identical to box height, or 28px */
+  letter-spacing: 0.04em;
+  color: var(--color-black);
+  font-family: var(--font-base);
+  border: none;
+  outline: none;margin-top: 20px;
+}
+.app__header-content__image {
+  flex: 4;
+}
+.app__header-content__image img {
+  width: 100%;
+}
+.app__header-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.app__header-footer__numbers {
+    display: flex;  
+    
+}
+.app__header-footer__numbers p {
+}
+.app__header-footer__numbers .line {
+}
+.app__header-footer__scroll {
+}
+.app__header-footer__scroll p {
+}
+.app__header-footer__scroll .line {
+}

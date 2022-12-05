@@ -1,0 +1,89 @@
+.app__navBar {
+  display: flex;
+  color: var(--color-white);
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.app__navBar-logo {
+  font-family: var(--font-base);
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.app__navBar-links {
+  display: flex;
+  gap: 20px;
+}
+.app__navBar-links a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  font-family: var(--font-alt);
+}
+.app__navBar-buttons {
+  display: flex;
+}
+.app__navBar-buttons .line {
+  width: 1px;
+  background-color: var(--color-gray);
+  margin: 0 10px;
+}
+.app__navBar-buttons__login,
+.app__navBar-buttons__book-table {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  font-family: var(--font-alt);
+  cursor: pointer;
+}
+
+.app__navBar-nabMobile__icon svg {
+  font-size: 25px;
+}
+
+.app__navBar-nabMobile__links {
+  background-color: var(--color-gray);
+  position: absolute;
+  right: 10px;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+.app__navBar-nabMobile__links a {
+  margin: 1rem 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  font-family: var(--font-alt);
+}
+.app__navBar-nabMobile {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .app__navBar-nabMobile {
+    display: block;
+  }
+  .app__navBar-nabMobile__links .slide-bottom{
+    display: flex;
+    flex-direction: column;
+  }
+  .app__navBar-nabMobile__links a {
+    margin: 0.3rem 0;
+  }
+  .app__navBar-buttons {
+    display: none;
+  }
+  .app__navBar-links {
+    display: none;
+  }
+}
