@@ -1,0 +1,83 @@
+.app__about {
+  padding: 4rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.app__about-content {
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+  max-width: 500px;
+}
+.app__about-content h2 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+}
+.app__about-content img {
+  width: 40px;
+}
+.app__about-content p {
+  font-family: var(--font-alt);
+  color: var(--color-gray);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  margin: 20px 0;
+}
+.app__about-content button {
+  font-family: var(--font-base);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--color-black);
+  /* identical to box height, or 28px */
+  letter-spacing: 0.04em;
+  background-color: var(--color-golden);
+  width: 141px;
+  height: 44px;
+  border: none;
+  outline: none;
+}
+.app__about-image {
+  height: 503px;
+  width: 64px;
+}
+.app__about-image img {
+  width: 100%;
+}
+.js-end {
+  align-items: flex-end;
+}
+.js-end p {
+  text-align: right;
+}
+.js-start {
+  align-items: flex-start;
+}
+.js-start p {
+  text-align: left;
+}
+
+.js-end img {
+  rotate: 180deg;
+}
+@media screen and (max-width: 700px) {
+  .app__about-content,
+  .js-end p,
+  .js-start p {
+    align-items: center!important;
+    text-align: center;
+  }
+}

@@ -1,6 +1,5 @@
 import React from "react";
-import headerImage from "../../assets/welcome.png";
-import spoon from "../../assets/spoon.svg";
+import { images } from "../../constants";
 import "./Header.css";
 
 const Header = () => (
@@ -12,7 +11,7 @@ const Header = () => (
       </div>
       <div className="app__header-content__headlines">
         <h3>Chase the new Flavour</h3>
-        <img src={spoon} alt="spoon" />
+        <img src={images.spoon} alt="spoon" />
         <h2>The key to Fine dining</h2>
         <p>
           Sit tellus lobortis sed senectus vivamus molestie. Condimentum
@@ -22,7 +21,7 @@ const Header = () => (
         <button>Explore Menu</button>
       </div>
       <div className="app__header-content__image">
-        <img src={headerImage} alt="welcome" />
+        <img src={images.welcome} alt="welcome" />
       </div>
     </div>
     <div className="app__header-footer">
