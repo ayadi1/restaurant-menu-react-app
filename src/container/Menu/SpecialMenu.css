@@ -1,0 +1,58 @@
+.app__SpecialMenu-container {
+  padding: 4rem;
+}
+.app__SpecialMenu-container__headlines {
+  text-align: center;
+}
+.app__SpecialMenu-container__headlines h3 {
+  font-family: var(--font-base);
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  color: var(--color-white);
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.app__SpecialMenu-container__headlines h2 {
+  font-family: var(--font-base);
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--color-golden);
+}
+.app__SpecialMenu-container__menu {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.app__SpecialMenu-container__menu-items {
+  max-width: 400px;
+  min-width: 350px;
+}
+.app__SpecialMenu-container__menu-items h4 {
+  font-family: var(--font-base);
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-white);
+}
+.app__SpecialMenu-container__menu-image {
+  max-width: 400px;
+  min-width: 200px;
+  width: 200px;
+  flex: 1;
+}
+.app__SpecialMenu-container__menu-image img {
+  width: 100%;
+}
+@media screen and (max-width: 830px) {
+  .app__SpecialMenu-container__menu {
+    justify-content: center;
+  }
+}
