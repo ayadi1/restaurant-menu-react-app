@@ -20,6 +20,7 @@
 }
 body {
   background-color: var(--color-black);
+  overflow-x: hidden;
 }
 a {
   color: unset;
