@@ -1,0 +1,80 @@
+.app__Chef {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  gap: 50px;
+  padding: 4rem;
+}
+.app__Chef-image {
+  max-width: 500px;
+  min-width: 300px;
+}
+.app__Chef-image img {
+  width: 100%;
+}
+.app__Chef-content {
+  max-width: 500px;
+  min-width: 300px;
+}
+.app__Chef-content h3 {
+  font-family: var(--font-base);
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-white);
+}
+.app__Chef-content img {
+}
+.app__Chef-content h2 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-golden);
+}
+.app__Chef-content p {
+  font-family: var(--font-alt);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-grey);
+  margin-top: 30px;
+}
+.app__Chef-content__signature {
+  margin-top: 30px;
+}
+.app__Chef-content__signature p:first-child {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-golden);
+}
+.app__Chef-content__signature p:last-child {
+  font-family: var(--font-alt);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-grey);
+  margin-top: 0!important;
+}
+.app__Chef-content__signature img {
+  width: 235px;
+  height: 83px;
+  margin-top: 30px;
+}
