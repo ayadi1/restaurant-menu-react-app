@@ -1,0 +1,100 @@
+.app__Gallery {
+  padding: 4rem 0 4rem 4rem;
+  display: flex;
+}
+.app__Gallery-headlines {
+  max-width: 500px;
+  min-height: 300px;
+  min-width: 200px;
+}
+.app__Gallery-headlines h3 {
+  font-family: var(--font-base);
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-white);
+}
+.app__Gallery-headlines img {
+  width: 40px;
+  height: 9px;
+}
+.app__Gallery-headlines h2 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--color-golden);
+}
+.app__Gallery-headlines p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-gray);
+}
+.app__Gallery-headlines button {
+  width: 157px;
+  height: 44px;
+  background-color: var(--color-golden);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-black);
+  font-family: var(--font-base);
+  border: none;
+  outline: none;
+  margin-top: 20px;
+}
+.app__Gallery-images {
+  overflow-x: scroll;
+  display: flex;
+  gap: 30px;
+}
+.app__Gallery-images .image {
+  min-width: 301px;
+  position: relative;
+}
+.app__Gallery-images .image:hover .instagram{
+    display: flex;
+}
+.instagram {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  background: linear-gradient(
+    207.55deg,
+    rgba(0, 0, 0, 0.75) 1.5%,
+    rgba(0, 0, 0, 0.64) 98.62%
+  );
+  border: 2px solid rgba(220, 202, 135, 0.2);
+  width: 100%;
+  height: 105%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.instagram svg {
+  font-size: 30px;
+}
+.app__Gallery-images .image img {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+@media screen and (max-width: 950px) {
+  .app__Gallery {
+    flex-direction: column;
+  }
+}
