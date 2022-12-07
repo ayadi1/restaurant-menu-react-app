@@ -168,7 +168,7 @@
   }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 400px){
   .app__Footer{
     padding: 10px;
   }

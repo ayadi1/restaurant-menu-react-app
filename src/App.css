@@ -1,7 +1,7 @@
 .app__padding {
   padding: 0 4rem;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   .app__padding {
     padding: 10px;
   }
