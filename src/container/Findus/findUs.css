@@ -1,0 +1,92 @@
+.app__FindUs {
+  display: flex;
+  padding: 4rem;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.app__FindUs-content__headlines {
+  max-width: 500px;
+  min-height: 300px;
+}
+.app__FindUs-content__headlines h3 {
+  font-family: var(--font-base);
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-white);
+}
+.app__FindUs-content__headlines img {
+  width: 40px;
+  height: 9px;
+}
+.app__FindUs-content__headlines h2 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--color-golden);
+  margin-bottom: 50px;
+}
+.app__FindUs-content__headlines p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-gray);
+}
+.app__FindUs-content__headlines button {
+  width: 157px;
+  height: 44px;
+  background-color: var(--color-golden);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-black);
+  font-family: var(--font-base);
+  border: none;
+  outline: none;
+  margin-top: 20px;
+}
+.app__FindUs-content__image {
+  max-width: 500px;
+  min-height: 300px;
+}
+.app__FindUs-content__image img {
+  width: 100%;
+}
+.app__FindUs-location {
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.app__FindUs-location h4 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-golden);
+}
+.app__FindUs-location p {
+  font-family: var(--font-alt);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+
+  /* identical to box height, or 28px */
+  letter-spacing: 0.04em;
+
+  /* FFFFFF */
+  color: var(--color-white);
+}
