@@ -83,7 +83,7 @@
     width: 80%;
   }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
   .app__laurels-container__content-laurels__awards{
     grid-template-columns: 1fr;
   }
