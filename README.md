@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Gerícht
+
+### live preview => https://restaurant-menu-react-app.vercel.app/
+![Design preview for Gerícht coding challenge](./previewImage.png) 
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
