@@ -1,5 +1,5 @@
 .app__Footer {
-  padding: 0 4rem;
+  padding:  4rem;
 }
 .app__Footer-Subscribe {
   display: flex;
@@ -149,6 +149,15 @@
 }
 .app__Footer-container__infos-logo__icons svg {
   font-size: 25px;
+  cursor: pointer;
+}
+.signature{
+  text-align: center;
+  color: var(--color-white);
+  margin-top: 20px;
+}
+.signature a{
+  color: var(--color-golden);
 }
 @media screen and (max-width: 768px) {
   .app__Footer-Subscribe__inputs button,

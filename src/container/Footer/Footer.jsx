@@ -48,6 +48,16 @@ const Footer = () => (
         </div>
       </div>
     </div>
+    <p className="signature">
+      coded by{" "}
+      <a
+        href="https://www.linkedin.com/in/oussama-ayadi1/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        oussama ayadi
+      </a>
+    </p>
   </div>
 );
 
