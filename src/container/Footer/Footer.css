@@ -1,0 +1,160 @@
+.app__Footer {
+  padding: 0 4rem;
+}
+.app__Footer-Subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background: #0c0c0c;
+  border: 1px solid rgba(220, 202, 135, 0.2);
+  box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+}
+.app__Footer-Subscribe h3 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-white);
+}
+.app__Footer-Subscribe img {
+}
+.app__Footer-Subscribe h2 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-golden);
+}
+.app__Footer-Subscribe p {
+  font-family: var(--font-alt);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  margin: 40px 0;
+}
+.app__Footer-Subscribe__inputs {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.app__Footer-Subscribe__inputs input {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-grey);
+  background-color: transparent;
+  border: 1px solid var(--color-white);
+  min-width: 300px;
+  max-width: 500px;
+  padding-left: 20px;
+}
+.app__Footer-Subscribe__inputs button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 32px;
+  gap: 10px;
+  width: 129px;
+  min-width: 129px;
+  max-width: 129px;
+  height: 44px;
+  background: var(--color-golden);
+  border: 1px solid var(--color-golden);
+}
+.app__Footer-container {
+  margin-top: 50px;
+}
+.app__Footer-container__infos {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  color: var(--color-white);
+  flex-wrap: wrap;
+}
+.app__Footer-container__infos-data,
+.app__Footer-container__infos-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  min-width: 300px;
+}
+.app__Footer-container__infos-data h3 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-white);
+  margin-bottom: 30px;
+}
+.app__Footer-container__infos-data p {
+  font-family: var(--font-alt);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-grey);
+}
+.app__Footer-container__infos-logo h2 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-golden);
+}
+.app__Footer-container__infos-logo p {
+  font-family: var(--font-alt);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.app__Footer-container__infos-logo__icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.app__Footer-container__infos-logo__icons svg {
+  font-size: 25px;
+}
+@media screen and (max-width: 768px) {
+  .app__Footer-Subscribe__inputs button,
+  .app__Footer-Subscribe__inputs input {
+    max-width: none;
+    width: 100%;
+    height: 44px;
+  }
+}
