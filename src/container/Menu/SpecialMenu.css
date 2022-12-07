@@ -56,3 +56,8 @@
     justify-content: center;
   }
 }
+@media screen and (max-width: 375px){
+  .app__SpecialMenu-container{
+    padding: 0;
+  }
+}

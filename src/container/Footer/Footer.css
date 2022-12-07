@@ -167,3 +167,16 @@
     height: 44px;
   }
 }
+
+@media screen and (max-width: 375px){
+  .app__Footer{
+    padding: 10px;
+  }
+  .app__Footer-Subscribe h2{
+    font-size: 45px;
+  }
+  .app__Footer-Subscribe p{
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}

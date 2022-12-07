@@ -90,3 +90,9 @@
   /* FFFFFF */
   color: var(--color-white);
 }
+
+@media screen and (max-width: 375px){
+  .app__FindUs{
+    padding: 10px;
+  }
+}

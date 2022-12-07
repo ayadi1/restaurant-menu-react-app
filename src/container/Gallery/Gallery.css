@@ -98,3 +98,9 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 375px){
+  .app__Gallery{
+    padding: 10px;
+  }
+}
