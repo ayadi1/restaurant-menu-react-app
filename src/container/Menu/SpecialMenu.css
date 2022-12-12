@@ -26,6 +26,7 @@
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .app__SpecialMenu-container__menu-items {
   max-width: 400px;
@@ -56,8 +57,8 @@
     justify-content: center;
   }
 }
-@media screen and (max-width: 375px){
-  .app__SpecialMenu-container{
+@media screen and (max-width: 375px) {
+  .app__SpecialMenu-container {
     padding: 0;
   }
 }
